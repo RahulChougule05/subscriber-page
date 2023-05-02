@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber Page</title>
+
+     <!-- External CSS link -->
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Google Font Family link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <h2>Subscriber</h2>
+        <hr>
+        <div class="box">
+            We're sorry to see you go, but hey, no hard feelings, hopefully we will see you back one day.
+            <span class="address">Please fill in your email address in order to unsubscribe from the list.</span>
+            <span class="address">You will receive an email to confirm your unsubscription, just to make sure this is not an accident or somebody else tries to unsubscribe you.</span>
+        </div>
+        <form>
+            <label>Email<span id="star"> *</span></label>
+            <input type="text" id="email"> <br>
+            <label>Unsubscribe reason</label> 
+            <input type="text" placeholder="Unsubscribe reason" id="unsubscribeReason">
+        </form>
+        <hr>
+        <button type="submit" id="button">Unsubscribe</button>
+    </div>
+</body>
+</html>
